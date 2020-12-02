@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML & CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="background container">
+    <header>
+        <h1 class="logo-box">Receptuur</h1>
+
+        <nav>
+            <ul class="navigation-bar">
+                <li class="navigation-bar-box"><a href="index.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <form name="contact" method="POST" data-netlify="true" class="form">
+                <label for="naam" class="label">Naam: </label>
+                <input type="text" name="naam" class="input"> <br>
+ 
+                <label for="email" class="label">Email: </label>
+                <input type="email" name="email" class="input"> <br>
+ 
+                <label for="telefoonnummer" class="label">Telefoonnummer: </label>
+                <input type="tel" name="telefoonnummer" class="input"> <br>
+
+                <label for="leeftijd" class="label">Leeftijd: </label>
+                <input type="number" name="leeftijd" class="input"> <br>
+
+                <label for="geboortedatum" class="label">Geboortedatum: </label>
+                <input type="date" name="geboortedatum" class="input"> <br>
+
+                <label for="gender" class="label">Gender: </label>
+                    <input type="radio" name="gender" class="input" value="man" id="man">
+                    <label for="man">Man</label>
+
+                    <input type="radio" name="gender" class="input" value="vrouw" id="vrouw">
+                    <label for="vrouw">Vrouw</label> <br> <br>
+
+                <label for="cuisine" class="label">Favoriete Cuisine: </label>
+                    <input type="checkbox" name="cuisine" class="input" value="frans" id="frans">
+                    <label for="frans">Frans</label>
+
+                    <input type="checkbox" name="cuisine" class="input" value="italiaans" id="italiaans">
+                    <label for="italiaans">Italiaans</label>
+
+                    <input type="checkbox" name="cuisine" class="input" value="spaans" id="spaans">
+                    <label for="spaans">Spaans</label>
+
+                    <input type="checkbox" name="cuisine" class="input" value="arabisch" id="arabisch">
+                    <label for="arabisch">Arabisch</label> <br> <br> <br>
+
+                <label for="kleur" class="label">Favoriete kleur: </label>
+                <input type="color" name="kleur" class="input"> <br> <br>
+
+                <label for="biografie" class="label">Biografie: </label>
+                <textarea name="biografie" class="input textarea"></textarea> <br>
+
+                <label for="recept" class="label">Recept: </label>
+                <input type="file" name="recept" class="input"> <br>
+
+                <label for="url" class="label">URL van je website: </label>
+                <input type="url" name="url" class="input"> <br> <br>
+
+    
+                <input type="submit" value="Verzenden" class="button">
+                <input type="reset" value="Reset" class="button">
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        Copyright 2020 Thom van der Veldt
+    </footer>
+</body>
+
+</html>
